@@ -1,0 +1,29 @@
+.containerNameModify{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height:80rpx;
+  margin-top: 30rpx;
+  background-color: #f5f5f5;
+}
+
+.blockNameModify{
+  width: 5vw;
+}
+
+Page{
+  background-color: #f6feff;
+}
+
+.nameModify{
+  padding-top: 18rpx;
+  width: 85vw;
+  height: 36rpx;
+  font-size: 36rpx;
+}
+
+.clearNameModify{
+  margin-top: 24rpx;
+  width: 4vw;
+  height: 4vw;
+}

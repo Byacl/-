@@ -1,0 +1,43 @@
+<!-- 未登录显示页面 -->
+<view wx:if="{{notlogin}}">              <!-- 0.控制未登录显示页面 -->
+  <view class="photoBackground">
+    <image class="photo" mode="scaleToFill" src="/pages/icon/logo.png"/>
+  </view>
+    <view class="notLogin">未登录</view>
+
+  <view class="divLineOne"></view>
+
+  <view class='loginCircleOne'>          <!-- 1.a."蓝-白-蓝"三圈登录按钮 -->
+    <view class='loginCircleTwo'>
+      <navigator hover-class='none' url="/pages/personalLogin/personalLogin">
+        <view class='loginCircleThree'>
+          <view class='loginCircleText'>点击登录</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+</view>
+
+
+<!-- 登录后显示页面 -->
+<view wx:if="{{login}}">              <!-- 0.控制已登录显示页面 -->
+
+  <view class="photoBackground">      <!-- 1.a.自定头像地址(便于修改) -->
+    <image class="photo" mode="scaleToFill" src="{{src}}"/>
+  </view>
+  <view class="name">{{name}}</view>  <!-- 1.b.自定昵称名称(便于修改) -->
+  <view class="divLineOne"></view>
+
+  <view class="containerOne">
+    <navigator class="timeRecord" hover-class="none" url="/pages/timeRecord/timeRecord">打卡记录</navigator>
+  </view>
+  
+  <view class="containerTwo">
+    <navigator class="story" hover-class="none" url="/pages/story/story">团队故事</navigator>
+    <view class="divLineTwo"></view>
+    <navigator class="product" hover-class="none" url="/pages/about/about">关于产品</navigator>
+    <view class="divLineTwo"></view>
+    <navigator class="setting" hover-class="none" url="/pages/setting/setting">设置</navigator>
+  </view>
+</view>

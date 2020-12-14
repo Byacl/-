@@ -1,0 +1,19 @@
+<view class="searchBackgroundOne">
+  <view class="searchBackgroundTwo">
+  <image class="searchIcon" src="/pages/icon/search.png"/>
+  <input class="search" bindconfirm="searchToSp" confirm-type="search" focus/>
+  </view>
+  <navigator
+    class="cancel"
+    hover-class="none"
+    url="/pages/home/home"
+    open-type="switchTab">取消</navigator>  <!-- 1.b.取消后返回首页 -->
+</view>
+
+<view class="searchGuide">快捷搜索:</view>
+
+<view class="searchContainer">
+  <navigator class="searchRecord" hover-class="none" url="/pages/timeRecord/timeRecord">打卡记录</navigator>
+  <navigator class="searchStory" hover-class="none" url="/pages/story/story">团队故事</navigator>
+  <navigator class="searchAbout" hover-class="none" url="/pages/about/about">关于产品</navigator>
+</view>

@@ -1,0 +1,80 @@
+{
+  "plugins": {
+    "calendar": {
+        "version": "1.1.3",
+        "provider": "wx92c68dae5a8bb046"
+    }
+},
+  "pages":[
+    "pages/cover/cover",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/weight/weight",
+    "pages/canteen/canteen",
+    "pages/snack/snack",
+    "pages/fruit/fruit",
+    "pages/time/time",
+    "pages/bell/bell",
+    "pages/personal/personal",
+    "pages/personalLogin/personalLogin",
+    "pages/timeRecord/timeRecord",
+    "pages/story/story",
+    "pages/about/about",
+    "pages/setting/setting",
+    "pages/imageModify/imageModify",
+    "pages/nameModify/nameModify"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#99ccff",
+    "navigationBarTitleText": "ddddd",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#cccccc"
+  },
+
+  "tabBar": {
+    "backgroundColor": "#e4fbff",
+    "borderStyle": "black",
+    "selectedColor": "#0099cc",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "pages/icon/home.png",
+        "selectedIconPath": "pages/icon/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/weight/weight",
+        "iconPath": "pages/icon/weight.png",
+        "selectedIconPath": "pages/icon/weight.png",
+        "text": "测重"
+      },
+      {
+        "pagePath": "pages/time/time",
+        "iconPath": "pages/icon/time.png",
+        "selectedIconPath": "pages/icon/time.png",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/bell/bell",
+        "iconPath": "pages/icon/bell.png",
+        "selectedIconPath": "pages/icon/bell.png",
+        "text": "闹钟"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "pages/icon/personal.png",
+        "selectedIconPath": "pages/icon/personal.png",
+        "text": "个人"
+      }
+      
+    ]
+  },
+
+
+  
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

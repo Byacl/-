@@ -1,0 +1,24 @@
+
+
+<form wx:if="{{input}}" bindsubmit="submit">
+  <view class="containerOne">
+    <image class="headImage" src="/pages/icon/clockSetting.png"></image>
+    <view class="headText">请设置时间(24小时制):</view>
+  </view>
+  <view class="nameHead">时：</view>
+  <input class="nameText" name="hour" placeholder="/时"/>
+  <view class="nameHead">分：</view>
+  <input class="nameText" name="minute" placeholder="/分"/>
+  <view class="nameHead">秒：</view>
+  <input class="nameText" name="second" placeholder="/秒"/>
+  <button  class="setting" formType="submit">设置</button>
+</form>
+
+
+
+
+
+<view wx:if="{{clock}}">
+  <image class="clock" src="/pages/icon/clock.png"/>
+  <view class="cancel" bindtap="cancel">关闭</view>
+</view>

@@ -1,0 +1,80 @@
+Page{
+  background-color: #f6feff;
+}
+
+.calendarBackground{
+  margin-top: 5vw;
+  background-color: #f6feff;
+  width: 96vw;
+  margin-left: 2vw;
+}
+
+.calendar
+{
+  background-color: #f6feff;
+  padding-top: 20rpx; 
+}
+
+.calendar-header
+{
+  font-size: large;
+  color: #59518d;
+}
+
+.calendar-board
+{
+  color: #c7cbe2;
+  font-weight: bold;
+}
+
+
+.timeCircleOne{
+  width:225rpx;
+  height:225rpx;
+  background-color:#8bc4f6;
+  border-radius:50%;
+  padding:10rpx;
+  margin:20rpx auto;
+  margin-top: 50rpx;
+}
+
+.timeCircleTwo{
+  width:205rpx;
+  height: 205rpx;
+  background-color:white;
+  border-radius:50%;
+  padding:10rpx;
+}
+.timeCircleThree{
+  width:185rpx;
+  height:185rpx;
+  background-color:#63b2f7;
+  border-radius:50%;
+  padding:10rpx;
+}
+
+.timeCircleText{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 60rpx;
+  font-size: 45rpx;
+  color:whitesmoke;
+}
+
+.success{
+  margin-top: 50rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
+  color: #59518d;
+}
+
+.snowman{
+  margin-top: 100rpx;
+  margin-left: 15vw;
+  width: 70vw;
+  height:40vw;
+  border-radius: 25vw;
+}

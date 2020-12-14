@@ -1,0 +1,30 @@
+<view class="snackContainerOne">
+  <image class="snackHeadImage" src="/pages/icon/form.png"></image>
+  <view class="snackHeadText">包装零食信息(功能同测重水果，此仅有样式)</view>
+</view>
+
+<view class="snackContainerTwo">
+  <image class="snackNameImage" src="/pages/icon/snack.png"/>
+  <view class="snackNameHead">零食类型：</view>
+</view>
+
+<picker class="snackNameText">点击选择</picker>
+
+<view class="snackContainerTwo">
+  <image class="snackWeightImage" src="/pages/icon/sthWeight.png"/>
+  <view class="snackWeightHead">零食净重：</view>
+</view>
+
+<view class="snackContainerThree">
+  <view class="snackWeightBlock"></view>
+  <input
+    class="snackWeightText"
+    type="digit"
+    placeholder="在此输入"/>
+  <view class="snackWeightUnit">单位/g</view>
+</view>
+
+<button
+  class="snackCalculate"
+  disabled="true">开始计算
+</button>

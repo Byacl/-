@@ -1,0 +1,9 @@
+<image
+ class="cover"
+ src="http://m.qpic.cn/psc?/V14OFlBO1KWDwj/bqQfVz5yrrGYSXMvKr.cqeLO46pFNHKtZ82uFPam7isB7RBFVtLYLdgogUc5F5ozmOu9TyWlFjDmKQsVOjm0kmzh8E9vHtmSImVLfgpdbJY!/b&bo=OAQiCQAAAAABBzc!&rf=viewer_4"/>        <!-- 1.封面图 -->
+
+<view class="enterContainer">                     
+  <view class="enterText">{{timeWait}}</view>     <!-- 2.倒计时 -->
+  <view class="enterDiv">|</view>                 
+  <view class="enter" bindtap="enter">跳过</view>  <!-- 3.跳过 -->
+</view>

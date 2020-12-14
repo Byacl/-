@@ -1,0 +1,31 @@
+<view class="recordContainerOne">
+  <view class="recordTextOne">累计打卡:</view>
+  <view class="recordNum">{{clickDays}}</view>
+  <view class="recordTextTwo">天</view>
+</view>
+
+
+<view class="recordContainerTwo">
+  <view class="openText">查看详情</view>
+  <image                        
+    wx:if="{{close}}" 
+    class="close" 
+    bindtap="open"
+    src="/pages/icon/close.png"/>      <!-- 2.a.收起时显示图标 -->
+  <image
+    wx:if="{{open}}" 
+    class="open" 
+    bindtap="close"
+    src="/pages/icon/open.png"/>        <!-- 2.b.展开时显示图标 -->
+</view>
+
+    <!-- 2.c.展开时显示打卡记录 -->
+<view
+  wx:if="{{open}}"
+  wx:for="{{timeRecordList}}" wx:for-item="item" wx:key="id">
+  <view class="recordContainerThree">    <!-- 3.a.通过wx:for不断更新打卡记录 -->
+    <view class="dot"></view>
+    <view class="recordTime">{{item.addEvent.timeRecord}}</view>
+  </view>
+  <view class="good">太棒了！您完成了打卡，继续加油哟！</view>
+</view>

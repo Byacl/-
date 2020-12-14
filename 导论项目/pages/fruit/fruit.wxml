@@ -1,0 +1,54 @@
+<view class="fruitContainerOne">
+  <image class="fruitHeadImage" src="/pages/icon/form.png"></image>
+  <view class="fruitHeadText">测重水果信息</view>
+</view>
+
+<form bindsubmit="fruitSubmit">
+
+  <view class="fruitContainerTwo">
+    <image class="fruitNameImage" src="/pages/icon/fruit.png"/>
+    <view class="fruitNameHead">水果类型：</view>
+  </view>
+
+  <picker
+      class="fruitNameText"
+      name="fruitName"
+      mode="multiSelector"
+      bindchange="fruitOneChange"
+      bindcolumnchange="fruitOneColumnChange"
+      range="{{fruitOneArray}}"
+      value="{{fruitOneIndex}}">
+      {{fruitOne}}
+    </picker>      <!-- 1.a.name用于form表单中获取选择信息 -->  <!-- 1.b.bindcolumnchange用于更改多列选择器列表 -->
+
+  <view class="fruitContainerTwo">
+    <image class="fruitWeightImage" src="/pages/icon/sthWeight.png"/>
+    <view class="fruitWeightHead">水果质量：</view>
+  </view>
+
+  <view class="fruitContainerThree">
+    <view class="fruitWeightBlock"></view>
+    <input
+      class="fruitWeightText"
+      name="fruitWeight"
+      bindinput="fruitInput"
+      type="digit"
+      placeholder="在此输入"/>
+    <view class="fruitWeightUnit">单位/kg</view>
+  </view>         <!-- 2.a.name用于form表单中获取input信息 -->
+
+<view wx:if="{{fruitResultShow}}">   <!-- 3.c.由button控制结果显示 -->
+  <view class="fruitContainerTwo">
+    <image class="fruitResultImage" src="/pages/icon/calorie.png"/>
+    <view class="fruitResultHead">卡路里值：</view>
+  </view>
+    <view class="fruitResultText">{{fruitResult}}大卡</view>
+</view><!-- 3.d.{{fruitResult}}显示计算结果(计算的代码在后续form中提到) -->
+
+  <button
+    class="fruitCalculate"
+    formType="submit"
+    disabled="{{nameFill || weightFill}}">开始计算
+  </button>  <!-- 3.a.formType用于提交form表单信息 -->
+             <!-- 3.b.disabled判定条件由前文picker和input填充后修改 -->
+</form>

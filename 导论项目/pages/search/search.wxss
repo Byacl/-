@@ -1,0 +1,86 @@
+Page{
+  background-color: #f6feff;
+}
+
+.searchBackgroundOne{
+  display: flex;
+  flex-direction: row;
+}
+
+.searchBackgroundTwo{
+  display: flex;
+  flex-direction: row;
+  border-radius: 5vw;
+  background-color: rgb(245, 245, 245);
+  width: 80vw;
+  height: 60rpx;
+  margin-left: 2vw;
+  margin-top: 25rpx;
+}
+
+.searchIcon{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.search{
+  padding-top: 7.5rpx;
+  width: 70vw;
+}
+
+.cancel{
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  color: rgb(121, 121, 121);
+}
+
+.searchGuide{
+  margin-top: 30rpx;
+  margin-left: 1.5vw;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+
+.searchContainer{
+  margin-top: 25rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchRecord{
+  width: 25vw;
+  height: 60rpx;
+  font-size: 30rpx;
+  border-radius: 5vw;
+  background-color: rgb(242, 242, 242);
+  margin-left: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchStory{
+  width: 25vw;
+  height: 60rpx;
+  font-size: 30rpx;
+  border-radius: 5vw;
+  background-color: rgb(242, 242, 242);
+  margin-left: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchAbout{
+  width: 25vw;
+  height: 60rpx;
+  font-size: 30rpx;
+  border-radius: 5vw;
+  background-color: rgb(242, 242, 242);
+  margin-left: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

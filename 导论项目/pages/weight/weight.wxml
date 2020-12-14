@@ -1,0 +1,4 @@
+<view class="choose">请选择摄入模式</view>
+<navigator class="canteen" hover-class="none" url="/pages/canteen/canteen">食堂用餐</navigator>
+<navigator class="snack" hover-class="none" url="/pages/snack/snack">包装零食</navigator>
+<navigator class="balance" hover-class="none" url="/pages/fruit/fruit">测重水果</navigator>

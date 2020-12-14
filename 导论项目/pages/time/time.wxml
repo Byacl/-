@@ -1,0 +1,30 @@
+<!-- 日历板块 -->
+<view class="calendarBackground">
+  <calendar
+    calendar-style="calendar"
+    header-style="calendar-header"
+    board-style="calendar-board"
+    days-color="{{dayStyle}}"
+    weeks-type="cn"
+    binddayClick="dayClick"/>
+</view>
+
+<!-- 未打卡时板块 -->
+<view wx:if="{{show}}">     <!--  0.判断未打卡显示内容  -->
+  <view bindlongpress='timeClick' hover-class="none">   
+    <view class='timeCircleOne'>  <!--  2.a.bindlongpress长按触发函数  -->
+      <view class='timeCircleTwo'>
+        <view class='timeCircleThree'>
+          <view class='timeCircleText'>长按打卡</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 打卡后板块 -->
+<view wx:if="{{notshow}}">    <!--  0.判断已经打卡显示内容  -->
+  <view class="success">今日已打卡！✨</view>
+  <image class="snowman" src="/pages/icon/snowman.png"/>
+</view>
+

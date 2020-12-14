@@ -1,0 +1,37 @@
+<view class="canteenContainerOne">
+  <image class="canteenHeadImage" src="/pages/icon/form.png"></image>
+  <view class="canteenHeadText">食堂用餐信息(功能同测重水果，此仅有样式)</view>
+</view>
+
+<view class="canteenContainerTwo">
+  <image class="canteenLocationImage" src="/pages/icon/location.png"/>
+  <view class="canteenLocationHead">用餐位置：</view>
+</view>
+
+<picker class="canteenLocationText">点击选择</picker>
+
+<view class="canteenContainerTwo">
+  <image class="canteenNameImage" src="/pages/icon/canteen.png"/>
+  <view class="canteenNameHead">餐品类型：</view>
+</view>
+
+<picker class="canteenNameText">点击选择</picker>
+
+<view class="canteenContainerTwo">
+  <image class="canteenWeightImage" src="/pages/icon/sthWeight.png"/>
+  <view class="canteenWeightHead">餐品质量：</view>
+</view>
+
+<view class="canteenContainerThree">
+  <view class="canteenWeightBlock"></view>
+  <input
+    class="canteenWeightText"
+    type="digit"
+    placeholder="在此输入"/>
+  <view class="canteenWeightUnit">单位/kg</view>
+</view>
+
+<button
+  class="canteenCalculate"
+  disabled="true">开始计算
+</button>

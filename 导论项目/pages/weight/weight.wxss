@@ -1,0 +1,60 @@
+Page{
+  background-color: #f6feff;
+}
+
+.choose{
+  font-size: 75rpx;
+  font-weight: 800;
+  color: rgb(0, 19, 80);
+  display: flex;
+  justify-content: center;
+  margin-top: 150rpx;
+}
+
+.canteen{
+  width: 40vw;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 34, 145);
+  font-size: 40rpx;
+  font-weight: 700;
+  border-radius: 3vw;
+  border: rgb(0, 34, 145) solid 8rpx;
+  background-color: rgb(182, 238, 255);
+  margin-left: 30vw;
+  margin-top: 150rpx;
+}
+
+.snack{
+  width: 40vw;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 34, 145);
+  font-size: 40rpx;
+  font-weight: 700;
+  border-radius: 3vw;
+  border: rgb(0, 34, 145) solid 8rpx;
+  background-color: rgb(182, 238, 255);
+  margin-left: 30vw;
+  margin-top: 50rpx;
+}
+
+.balance{
+  width: 40vw;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 34, 145);
+  font-size: 40rpx;
+  font-weight: 700;
+  border-radius: 3vw;
+  border: rgb(0, 34, 145) solid 8rpx;
+  background-color: rgb(182, 238, 255);
+  margin-left: 30vw;
+  margin-top: 50rpx;
+}

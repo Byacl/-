@@ -1,0 +1,19 @@
+<view class="settingContainerOne" bindtap="gotoImageModify">
+  <view class="imageText">头像</view>
+  <image class="settingImage" src="{{settingImage}}"/>
+  <image class="signinOne" src="/pages/icon/signin.png"/>
+</view>
+
+<view class="settingDivLine"></view>
+
+<view class="settingContainerTwo" bindtap="gotoNameModify">
+  <view class="nameText">昵称</view>
+  <view class="settingName">{{settingName}}</view>
+  <image class="signinTwo" src="/pages/icon/signin.png"/>
+</view>
+
+<view
+  class="quit"
+  bindtap="removeUserInfo"
+  hover-class="none">退   出   登   录
+</view>                       <!-- 1.退出登录 -->

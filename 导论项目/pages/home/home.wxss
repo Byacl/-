@@ -1,0 +1,145 @@
+Page{
+  background-color: #f6feff;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+
+.titleImage{
+  width: 7vw;
+  height:7vw;
+  margin-left: 3vw;
+  border-radius: 50vw;
+}
+
+.titleText{
+  margin-left: 1vw;
+  width: 97vw;
+  font-size: 37.5rpx;
+  color: rgb(70, 96, 119);
+}
+
+.goToSearchBackground{
+  display: flex;
+  flex-direction: row;
+  border-radius: 5vw;
+  background-color: rgb(245, 245, 245);
+  width: 96vw;
+  height: 60rpx;
+  margin-left: 2vw;
+  margin-top: 15rpx;
+}
+
+.goToSearchIcon{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.goToSearch{
+  width: 80vw;
+}
+
+swiper{
+  margin-top:20rpx;
+  margin-left:1vw;
+  width:98vw;
+  height: 50vw;
+  border-radius: 5vw;
+}
+
+.image{
+  width: 98vw;
+  height: 50vw;
+  border-radius: 5vw;
+}
+
+.containerAll{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.containerLeft{
+  width: 47vw;
+  height: 84vw;
+  margin-top: 3vw;
+  margin-left: 2vw;
+  background-color: #e6f3fd;
+}
+
+.imageLeft{
+  width: 44vw;
+  height: 56vw;
+  padding-left: 1.5vw;
+  padding-top: 1.5vw;
+  border-radius: 5vw;
+}
+
+.textLeftOne{
+  font-size: 32rpx;
+  font-weight: 800;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.textLeftTwo{
+  width:43vw;
+  font-size: 28rpx;
+  font-family: cursive;
+  margin-top: 1vw;
+  margin-left: 2.5vw;
+}
+
+.containerRight{
+  width: 47vw;
+  height: 84vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  background-color: #e6f3fd;
+}
+
+.imageRight{
+  width: 44vw;
+  height: 56vw;
+  padding-left: 1.5vw;
+  padding-top: 2vw;
+  border-radius: 5vw;
+}
+
+.textRightOne{
+  font-size: 32rpx;
+  font-weight: 800;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.textRightTwo{
+  width:43vw;
+  font-size: 28rpx;
+  font-family: cursive;
+  margin-top: 1vw;
+  margin-left: 2.5vw;
+}
+
+.use{
+  width: 42vw;
+  height: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #5184cf;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  border-radius: 5vw;
+  border: #0d4288 solid 5rpx;
+  background-color: #cff2f8;
+}
+
+.look{
+  color: rgb(197, 58, 174);
+}

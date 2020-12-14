@@ -1,0 +1,108 @@
+Page{
+  background-color: #f6feff;
+}
+
+.recordContainerOne{
+  margin-top: 60rpx;
+  width: 60vw;
+  height: 52vw;
+  margin-left: 20vw;
+  background-color: #d1fffb;
+  border: #c3d9f5 dashed 7rpx;
+}
+
+.recordTextOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vw;
+  font-size: 40rpx;
+  color: #084963;
+}
+
+.recordNum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32vw;
+  font-size: 300rpx;
+  font-weight: 200;
+  font-family: cursive;
+  color: #147196;
+}
+
+.recordTextTwo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vw;
+  font-size: 40rpx;
+  color: #084963;
+}
+
+.recordContainerTwo{
+  height: 12vw;
+  display: flex;
+  flex-direction: row;
+  background-color:#f5f5f5;
+  margin-top: 60rpx;
+  border-radius: 5vw;
+}
+
+.openText{
+  width: 24vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+}
+
+.close{
+  width: 9vw;
+  height: 9vw;
+  margin-top: 1.5vw;
+  margin-left: 64vw;
+}
+
+.open{
+  width: 9vw;
+  height: 9vw;
+  margin-top: 1.5vw;
+  margin-left: 64vw;
+}
+
+.recordContainerThree{
+  width: 100vw;
+  height:6vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vw;
+}
+
+.recordTime{
+  font-size: 32rpx;
+  color: #636363;
+  margin-left: 2vw;
+}
+
+.dot{
+  width: 3vw;
+  height: 3vw;
+  background-color: #7dd1f1;
+  border-radius: 100vw;
+  margin-top: 1.5vw;
+  margin-left: 2vw;
+}
+
+.good{
+  width: 86vw;
+  height: 64rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5vw;
+  margin-left: 7vw;
+  background-color: #f5f5f5;
+  border-radius: 5vw;
+  font-size: 32rpx;
+}

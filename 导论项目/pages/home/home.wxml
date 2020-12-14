@@ -1,0 +1,54 @@
+<view class="title">
+  <image class="titleImage" src="/pages/icon/logo.png" />
+  <view class="titleText">ddddd</view>
+</view>
+
+<view class="goToSearchBackground">  <!-- 2.进入搜索页面 -->
+  <image class="goToSearchIcon" src="/pages/icon/search.png"/>
+  <navigator class="goToSearch" hover-class="none" url="/pages/search/search"/>
+</view>
+
+<swiper autoplay circular interval="2000" indicator-dots><!-- 3.a.轮播图(另外两幅图同理) -->
+  <swiper-item>
+    <image
+      bindtap="gotoBell"
+      class="image"
+      mode="scaleToFill"
+      src="http://a1.qpic.cn/psc?/V14OFlBO1KWDwj/bqQfVz5yrrGYSXMvKr.cqd4aJI*m1yOD0v8mOh0Uh7VMc8MOKbJc4*A11SEEmeoIvNnvz417P2tuuCxBWDFjyRUNYyCE4c0OH.f0wPBvoPs!/b&ek=1&kp=1&pt=0&bo=gAJAAQAAAAABF*M!&tl=1&vuin=455943316&tm=1606528800&sce=60-1-1&rf=viewer_4"/>
+  </swiper-item>
+  <swiper-item>
+    <image
+      bindtap="gotoTime"
+      class="image"
+      mode="scaleToFill"
+      src="http://a1.qpic.cn/psc?/V14OFlBO1KWDwj/bqQfVz5yrrGYSXMvKr.cqaLEwRrmaHiCZpIwL99Px8AsoH5QmdEKa1CbXD1d*AQZPbm5LdU4lAYVyI2EXF3VNQe2zez*X979knhu5Uo8lT4!/c&ek=1&kp=1&pt=0&bo=gAJAAQAAAAABF*M!&tl=3&vuin=455943316&tm=1607673600&sce=60-2-2&rf=0-0"/>
+  </swiper-item>
+  <swiper-item>
+    <image
+      bindtap="gotoWeight"
+      class="image"
+      mode="scaleToFill"
+      src="http://m.qpic.cn/psc?/V14OFlBO1KWDwj/TmEUgtj9EK6.7V8ajmQrEOLEk0oKOQqvdw.mk5MbQd.2tZEJ8VEgdWoNFi4GTGoTkQ.PsRiv5buAGZGRz2miZ8mXjgV2vzpXUGKvuvwAwP0!/b&bo=gAJAAQAAAAABF*M!&rf=viewer_4"/>
+  </swiper-item>
+</swiper>
+
+<view class="containerAll">
+  <view class="containerLeft" bindtap="gotoTime">
+    <image
+      class="imageLeft"
+      src="http://a1.qpic.cn/psc?/V14OFlBO1KWDwj/bqQfVz5yrrGYSXMvKr.cqaVODgusNcpBEmykFLSgMwYOxGWHAhd2eAQDw*b8bp1kXKWVIY0szY*tkQZuiqNHckds1npVcuoxIphRrtQfKTY!/c&ek=1&kp=1&pt=0&bo=kgS9BAAAAAABFx8!&tl=3&vuin=455943316&tm=1607817600&sce=60-2-2&rf=0-0"/>
+    <view class="textLeftOne">#打卡</view>
+    <view class="textLeftTwo">大学之旅，不在于走过了多少地方，而在于成就了多少次全新的自己。早安!</view>
+  </view>
+
+  <view class="addContainer">           
+    <view class="use" bindtap="use"><text>使用须知<text decode class="look">(&lt;-来点我)</text></text></view>
+    <view class="containerRight" bindtap="gotoWeight">
+      <image
+        class="imageRight"
+        src="http://a1.qpic.cn/psc?/V14OFlBO1KWDwj/bqQfVz5yrrGYSXMvKr.cqZB1JQxoyrgiyRBNAf*9ZD9.65XNEn9AZWHoor5g207*fnn69cG1W1n*4Gubf.N9UY.lkXIdzeGBZRf8EdFRIRA!/b&ek=1&kp=1&pt=0&bo=kQQ1BQAAAAABF5U!&tl=3&vuin=455943316&tm=1607821200&sce=60-2-2&rf=viewer_4"/>
+      <view class="textRightOne">#测重</view>
+      <view class="textRightTwo">做一个有质感的人，阅读旅行，规律节食，低调美丽。</view>
+    </view>
+  </view>
+</view>

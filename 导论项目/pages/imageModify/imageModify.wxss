@@ -1,0 +1,9 @@
+Page{
+  background-color: black;
+}
+
+.image{
+  width: 100vw;
+  height: 100vw;
+  margin-top: 200rpx;
+}

@@ -1,0 +1,6 @@
+<button
+  type="default"
+  size="default"
+  open-type="getUserInfo"             
+  bindgetuserinfo="getUserInfo">微信授权登录
+</button>                           <!-- 1.a.open-type设定获取用户信息   -->

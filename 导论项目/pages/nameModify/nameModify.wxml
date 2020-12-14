@@ -1,0 +1,11 @@
+<view class="containerNameModify">
+  <view class="blockNameModify"></view>
+  <input
+    class="nameModify" focus hold-keyboard
+    placeholder="{{placeholderName}}"
+    confirm-type="done"
+    bindconfirm="nameModifying"
+    value="{{nameModifying}}"></input>         <!-- 1.a.focus自动聚焦 --><!-- 1.b.hold-keyboard禁止收起 -->
+  <image class="clearNameModify" bindtap="clearValue" src="/pages/icon/cancel.png"/>
+  <!-- 2.a.一键清除绑定 -->
+</view>

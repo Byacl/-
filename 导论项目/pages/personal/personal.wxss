@@ -1,0 +1,131 @@
+Page{
+  background-color: #f6feff;
+}
+
+.notLogin{
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-size: 37.5rpx;
+}
+
+.loginCircleOne{
+  margin-top: 100rpx;
+  width:225rpx;
+  height:225rpx;
+  background-color:#8bc4f6;
+  border-radius:50%;
+  padding:10rpx;
+  margin:200rpx auto;
+}
+.loginCircleTwo{
+  width:205rpx;
+  height:205rpx;
+  background-color:white;
+  border-radius:50%;
+  padding:10rpx;
+}
+.loginCircleThree{
+  width:185rpx;
+  height:185rpx;
+  background-color:#63b2f7;
+  border-radius:50%;
+  padding:10rpx;
+}
+.loginCircleText{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 60rpx;
+  font-size: 45rpx;
+  color:whitesmoke;
+  font:bold black 10rpx
+}
+
+.photoBackground{
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.photo{
+  width:205rpx;
+  height:205rpx;
+  border-radius:50%;
+}
+
+.name{
+  margin-top: 15rpx;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-size: 37.5rpx;
+}
+.divLineOne{
+  background: #a7b4eb;
+  width: 25vw;
+  height: 4rpx;
+  margin-left:37.5vw;
+ }
+
+ .signin{
+   width: 35rpx;
+   height: 35rpx;
+   margin-left:80vw;
+   margin-bottom: 10vw;
+ }
+ 
+ .containerOne{
+   margin-top: 50rpx;
+   margin-left: 5vw;
+   background-color:#f5f5f5;
+   border-radius: 5vw;
+   width: 90vw;
+   height: 135rpx;
+ }
+ 
+ .timeRecord{
+   font-size: 35rpx;
+   padding-left: 5vw;
+   padding-top: 40rpx;
+   width:60vw;
+ }
+
+ .containerTwo{
+   margin-top: 100rpx;
+   margin-left: 5vw;
+   background-color:#f5f5f5;
+   border-radius: 5vw;
+   width: 90vw;
+   height: 350rpx;
+ }
+
+ .story{
+  font-size: 35rpx;
+  padding-left: 5vw;
+  padding-top: 40rpx;
+  width:70vw;
+ }
+
+ .product{
+  font-size: 35rpx;
+  padding-left: 5vw;
+  padding-top: 40rpx;
+  width:70vw;
+ }
+
+ .setting{
+  font-size: 35rpx;
+  padding-left: 5vw;
+  padding-top: 40rpx;
+  width:70vw;
+ }
+
+ .divLineTwo{
+  background: #a7b4eb;
+  width: 84vw;
+  height: 3rpx;
+  margin-left: 3vw;
+  margin-top: 3vw;
+ }

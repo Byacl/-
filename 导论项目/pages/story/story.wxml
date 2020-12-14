@@ -1,0 +1,31 @@
+<view class="storyTitle"><text>ddddd组的团队故事：</text></view>
+
+<view class="storyHeadOne"><text>一、团队成员：</text></view>
+
+
+<view class="storyText"><text decode>&emsp;张姝然：负责Arduino端的闹钟及各项任务提交</text></view>
+<view class="storyText"><text decode>&emsp;杨逸然：负责Arduino端的测重及各项配图制作</text></view>
+<view class="storyText"><text decode>&emsp;王家豪：负责微信小程序的部分及各项样式设计</text></view>
+
+<view class="storyHeadOne"><text>二、团队故事：</text></view>
+
+<view class="storyHeadTwo"><text decode>&emsp;2020.11.11：团队成立✨</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;在此时产生初步的设计模型，组员之间产生思维火花碰撞并确定了导论的产品模块，确定了导论作业方向。</text></view>
+<view class="storyTextS"><text decode>&emsp;&emsp;梦开始的地方！</text></view>
+
+<view class="storyHeadTwo"><text decode>&emsp;2020.11.23：创客马拉松🔥</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;在当天度过了一个忙碌而充实的周日！在众多优秀的导师、学长学姐和同届同学中学习、进步！</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;在这里我们更深刻理解了“如何满足用户需求”、“怎样才是一个好的产品”等的问题。收获了来自导师和学长们的建议，学习了同届同学们优秀的想法。对自己产品的设计也有了更好的认识，并向着理想中最强大的产品功能不断努力！(✌️)当然还吃到了年级赞助的零食~~~</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;下附上当日的团队海报~~~在当日还设计出了团队吉祥物：米林！(下图左上)</text></view>
+<image class="storyImageOne" src="https://www.oursparkspace.cn/wp-content/uploads/2020/12/微信图片_20201209185109.jpg"/>
+<view class="storyTextS"><text decode>&emsp;&emsp;思维火花的碰撞！</text></view>
+
+<view class="storyHeadTwo"><text decode>&emsp;2020.12.13：项目完成✔️</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;在ddl的当日，进行了小组成员面基，录制视频，忙碌了一个月的导论也划上一个完整的句号啦！</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;在当天，我们还迎来了杨逸然同学的19岁生日哦！🎂为了庆祝她的生日和导论的完结，“ddddd”和“熬夜修仙”小组梦幻联动出去聚餐啦！(大家都不愿意露脸就不附图了)页末附团队表演：“扔骰子”(误</text></view>
+
+<view class="storyText"><text decode>&emsp;&emsp;最后2020年就要结束啦，祝大家在新的一年里年龄在长，智商增加，学习顺利！</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;大学虽然是艰难的打工人生活，但也要坚持下去鸭！</text></view>
+<view class="storyText"><text decode>&emsp;&emsp;希望大家身体健康，生活顺利哦！</text></view>
+<view class="storyTextS"><text decode>&emsp;&emsp;完结撒花~~~</text></view>
+<image class="storyImageTwo" src="http://m.qpic.cn/psc?/V14OFlBO1KWDwj/bqQfVz5yrrGYSXMvKr.cqRBipWeHlQm*cXiuwpT8REwmQpdGiZ48HsorBcoZ10NRjzzaaL00uxvhLSW295C*HAyrBNcrotx6gq*MN29ZYv8!/mnull&bo=4QIhJQAAAAABB8c!&rf=photolist&t=5"/>

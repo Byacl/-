@@ -1,0 +1,2 @@
+<image class="image" bindtap="imageModify" src="{{image}}"/>
+<!-- 2.头像修改 -->

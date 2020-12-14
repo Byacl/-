@@ -1,0 +1,18 @@
+<view class="aboutTitle"><text>ddddd组的产品：</text></view>
+
+<view class="aboutHead">一、微信小程序部分(使用须知)：</view>
+<view class="aboutTextUse"><text decode>&emsp;主要包括了“测重”、“打卡”、“闹钟”三个功能板块：其中“打卡”板块附有相应的“打卡记录”功能。</text></view>
+<view class="aboutTextUse"><text decode>&emsp;还包括“封面”、“首页”、“个人”三个装饰板块：其中“首页”板块附带了搜索功能；“个人”板块附带了“登录”与“退出登录”、“修改昵称”、“修改头像”功能。</text></view>
+<view class="aboutTextUse"><text decode>&emsp;最后还包括本“关于产品”页面和“团队故事”的介绍板块。</text></view>
+
+<view class="aboutHead">二、Arduino测重部分：</view>
+<view class="aboutText"><text decode>&emsp;本部分主要是显示散称非袋装食品的重量。</text></view>
+<view class="aboutText"><text decode>&emsp;通过把特定的程序写在兼容的Arduino IDE上，将压力传感器模块hx-711与Arduino Uno板的连接，实现压力感应，并将程序烧录至Arduino Uno，实现测重功能。</text></view>
+<view class="aboutText"><text decode>&emsp;用户可通过LED1602显示屏或直接选用Arduino IDE上的串口监视器（推荐）来实时查看食物重量，以达到精准控制卡路里摄入的目的。</text></view>
+<image class="aboutImage" src="https://www.oursparkspace.cn/wp-content/uploads/2020/12/b97460143ba96ec9efacd7b85a0cc5d-1024x768.jpg"/>
+
+<view class="aboutHead">三、Arduino闹钟部分：</view>
+<view class="aboutText"><text decode>&emsp;本部分将程序烧录到Arduino板中，通过lcd显示屏+时钟板块显示时间，使用键盘来完成时间设定功能和闹钟开关功能，完成起床打卡的任务。</text></view>
+<view class="aboutText"><text decode>&emsp;本部分主要实现闹钟叫醒功能，通过与小程序的配合使用，完成每天的起床打卡，开启活力满满的一天。</text></view>
+<image class="aboutImage" src="https://www.oursparkspace.cn/wp-content/uploads/2020/12/d8703d37fef034f2ae291b614518dde-1024x768.jpg"/>
+
